@@ -2,14 +2,14 @@
  let counter = 0;
 
         // Function to increment the counter
-        function incrementCounter() {
+function incrementCounter() {
             // Display the current value of counter
-            alert("Current Counter Value: " + counter);
+    alert("Current Counter Value: " + counter);
             // Increment the counter
-            counter++;
+    counter++;
             // Update the counter paragraph on the webpage
-            document.getElementById("counter").innerText = counter;
-        }
+    document.getElementById("counter").innerText = counter;
+}
 
         // Attach the incrementCounter function to the button click event
-        document.getElementById("incrementBtn").addEventListener("click", incrementCounter);
+document.getElementById("incrementBtn").addEventListener("click", incrementCounter);
