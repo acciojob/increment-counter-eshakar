@@ -4,7 +4,7 @@
         // Function to increment the counter
 function incrementCounter() {
             // Display the current value of counter
-    alert("Current Counter Value: " + counter);
+    alert(counter);
             // Increment the counter
     counter++;
             // Update the counter paragraph on the webpage
